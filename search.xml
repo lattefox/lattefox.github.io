@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>如何在Hexo内添加站内搜索</title>
+      <link href="/2023/02/21/How-to-add-site-search-in-hexo/"/>
+      <url>/2023/02/21/How-to-add-site-search-in-hexo/</url>
+      
+        <content type="html"><![CDATA[<p>1.下载安装包<a href="https://github.com/wzpan/hexo-generator-search">hexo-generator-search</a>。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure><p>2.配置项目的<code>_config.xml</code>。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"># _config.xml</span><br><span class="line"># 站内搜索</span><br><span class="line">search: </span><br><span class="line">  path: search.xml</span><br><span class="line">  field: post</span><br><span class="line">  format: html</span><br><span class="line">  limit: 10000</span><br></pre></td></tr></table></figure><p>3.配置主题的<code>_config.xml</code>。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"># themes/yourtheme/_config.xml</span><br><span class="line">local_search:</span><br><span class="line">  enable: true</span><br><span class="line">  preload: true</span><br><span class="line">  CDN:</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>如何注册美区AppleID</title>
+      <link href="/2023/02/20/How-to-register-overseas-apple-account/"/>
+      <url>/2023/02/20/How-to-register-overseas-apple-account/</url>
+      
+        <content type="html"><![CDATA[<h1 id="注册邮箱"><a href="#注册邮箱" class="headerlink" title="注册邮箱"></a>注册邮箱</h1><p>准备一个邮箱地址。这里使用Google（谷歌）的Gmail邮箱服务来注册一个新地址。谷歌是国际搜索引擎巨头，他的gmail邮箱在国外绝大多数服务中都是被接受的。注册Gmail本身需要翻墙网络。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/gmail.png"></p><h1 id="注册美区Apple-ID"><a href="#注册美区Apple-ID" class="headerlink" title="注册美区Apple ID"></a>注册美区Apple ID</h1><h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><ul><li>出生日期：设置大于 18 周岁，否则可能出现有些应用有年龄限制不能下载。</li><li>电子邮件：建议注册一个没有绑定过AppleID的新邮箱。</li><li>手机号码：注册过中国区 Apple ID 的手机号码可以用来注册美区账号，不会产生冲突。</li><li>密码：设置密码时，密码中不要包含有名字、生日、邮箱中的信息，否则会卡在验证码那一步。</li></ul><h2 id="注册"><a href="#注册" class="headerlink" title="注册"></a>注册</h2><p>浏览器访问苹果注册页面：<a href="https://appleid.apple.com/account%E3%80%82">https://appleid.apple.com/account。</a> 点击<code>创建你的Apple ID</code>，开始注册新账号。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID1.png"></p><p>输入基本信息，确认无误后，点击继续。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID2.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID3.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID4.png"></p><p>接着需要对电子邮件&#x2F;手机号码，把收到的验证码输入进去，依次点击下一步。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID5.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID6.png"></p><p>注册成功后，账户会自动登录。如果没有登录，用刚刚注册好的账号重新登一下。点击付款方式，添加付款方式，进一步完善信息。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID7.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID8.png"></p><p>这里需要填写付款方式&amp;账号信息，非常重要。需要借助地址生成器生成需要的美区住址，包括街道地址，城市，邮编等信息。这里提供一个地址生成器地址：<a href="https://www.meiguodizhi.com/%E3%80%82">https://www.meiguodizhi.com/。</a><br>首先选择地址所在的州，可优先考虑选以下5个免税州：蒙大拿州（Montana）、俄勒冈州（Oregon）、阿拉斯加州（Alaska）、特拉华州（Delaware）、新罕布什尔州（New Hampshire）。比如输入Montana，生成该州的地址信息。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID9.png"></p><p>开始确认和填入付款信息。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID10.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID11.png"></p><p>配送地址不用再输，勾选下方的“拷贝账单地址”就行。确认没问题后，点“更新”。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID12.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID13.png"></p><h2 id="登陆"><a href="#登陆" class="headerlink" title="登陆"></a>登陆</h2><p>打开App Store，退出当前账号。点击右上角的个人头像，下一个页面拉到末尾，点击“退出登陆”即可。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID14.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID15.png"></p><p>接着再点右上角的图标，在登陆页面中输入刚刚注册好的账号密码进行登陆。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID16.png"></p><p>接下来，AppStore会跳出一个弹窗，选择“检查”，接着勾选“同意条款与条件”，选择“下一页”。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID17.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID18.png"></p><p>不要修改内容，点击“继续”。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID19.png"><br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID20.png"></p><p>接下来就可以下载美区中的各种APP了。<br><img src="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/reg_us_appleID/appleID21.png"></p><p>注意：保险起见，建议只在App Store中登陆美区AppleID，用来下载美区应用，不要在设置中登陆美区账号。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Apple </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Markdown语法速记表</title>
+      <link href="/2023/02/18/Markdown-cheat-sheet/"/>
+      <url>/2023/02/18/Markdown-cheat-sheet/</url>
+      
+        <content type="html"><![CDATA[<p>markdown有很多衍生版本。附带了额外的markdown命令。下面介绍基本的markdown语法。</p><span id="more"></span><h3 id="标题（Headers）"><a href="#标题（Headers）" class="headerlink" title="标题（Headers）"></a>标题（Headers）</h3><p>1到6级标题。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># 标题 1</span><br><span class="line">## 标题 2</span><br><span class="line">### 标题 3</span><br><span class="line">#### 标题 4</span><br><span class="line">##### 标题 5</span><br><span class="line">###### 标题 6</span><br></pre></td></tr></table></figure><h3 id="强调（Emphasis）"><a href="#强调（Emphasis）" class="headerlink" title="强调（Emphasis）"></a>强调（Emphasis）</h3><p>粗体，斜体，以及粗体和斜体结合。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">**粗体**</span><br><span class="line">__粗体__</span><br><span class="line">*斜体*</span><br><span class="line">_斜体_</span><br><span class="line">_斜体**结合**粗体_</span><br></pre></td></tr></table></figure><h3 id="列表（Lists）"><a href="#列表（Lists）" class="headerlink" title="列表（Lists）"></a>列表（Lists）</h3><p>无序列表和有序列表。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">* 表项1</span><br><span class="line">* 表项2</span><br><span class="line">    * 表项2-1</span><br><span class="line">    * 表项2-2</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1. 表项1</span><br><span class="line">2. 表项2</span><br><span class="line">    * 表项2-1</span><br><span class="line">    * 表项2-2</span><br></pre></td></tr></table></figure><h3 id="图片（Images）"><a href="#图片（Images）" class="headerlink" title="图片（Images）"></a>图片（Images）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">![图片描述信息](http://image.url.com)</span><br></pre></td></tr></table></figure><h3 id="链接（Links）"><a href="#链接（Links）" class="headerlink" title="链接（Links）"></a>链接（Links）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">[链接文字](http://link.url.com)</span><br></pre></td></tr></table></figure><h3 id="引号（Blockquotes）"><a href="#引号（Blockquotes）" class="headerlink" title="引号（Blockquotes）"></a>引号（Blockquotes）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; 书写引文文本。</span><br></pre></td></tr></table></figure><h3 id="内联代码（Inline-code）"><a href="#内联代码（Inline-code）" class="headerlink" title="内联代码（Inline code）"></a>内联代码（Inline code）</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">普通文本`高亮文本`文本文本</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 前端 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> markdown </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac OS下使用rz和sz上传下载文件</title>
+      <link href="/2017/12/26/How-to-use-lrzsz/"/>
+      <url>/2017/12/26/How-to-use-lrzsz/</url>
+      
+        <content type="html"><![CDATA[<p>开发人员在开发时有时会遇到需要在本机和开发机之间传文件的问题。虽然mac下的scp命令可以完成文件的上传和下载功能，但如果开发机的登陆需要经过跳板机是，scp命令就没有办法正常使用了。</p><span id="more"></span><p>window上可以用rx，sz命令上传，下载文件，mac下也可以。下面介绍一下Mac OS下如何配置rz，sz。</p><h3 id="安装brew"><a href="#安装brew" class="headerlink" title="安装brew"></a>安装brew</h3><p><a href="https://brew.sh/index_zh-cn.html">brew</a>是Mac OS上的一个包管理工具，可以使用它来安装接下来要使用到的iTerm，wget等工具。</p><p>Mac默认安装了ruby，打开终端执行如下命令：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/usr/bin/ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;</span><br></pre></td></tr></table></figure><p>Homebrew安装成功后，会自动创建目录 &#x2F;usr&#x2F;local&#x2F;Cellar 来存放Homebrew安装的程序。 这时就可以在命令行状态下面就可以使用 brew 命令了.</p><h3 id="安装iTerm2"><a href="#安装iTerm2" class="headerlink" title="安装iTerm2"></a>安装iTerm2</h3><p><a href="https://www.iterm2.com/">iTerm</a>是一个Mac下的终端工具，非常好用的命令行工具。Mac自带的终端是不支持lrzsz的，需要先下载支持它的iterms。</p><p>从官网下载，在本地解压，并将文件拖入Applications，安装完成。</p><h3 id="安装lrzsz"><a href="#安装lrzsz" class="headerlink" title="安装lrzsz"></a>安装lrzsz</h3><p>lrzsz是一款在linux里可代替ftp上传和下载的程序。它使用unix通信套件提供的X，Y，和ZModem文件传输协议。通过下载它来使用rz，sz。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install lrzsz</span><br></pre></td></tr></table></figure><h3 id="安装wget"><a href="#安装wget" class="headerlink" title="安装wget"></a>安装wget</h3><p>下载lrzsz之后，需要使用<code>wget</code>下载iterm2-zmodem。Mac默认不安装wget，可以通过brew安装。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">brew install wget</span><br></pre></td></tr></table></figure><h3 id="下载iterm2-zmodem"><a href="#下载iterm2-zmodem" class="headerlink" title="下载iterm2-zmodem"></a>下载iterm2-zmodem</h3><p>在iTerm2中使用Zmodem传输文件。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">cd /usr/local/bin</span><br><span class="line"></span><br><span class="line">wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-send-zmodem.sh</span><br><span class="line"></span><br><span class="line">wget https://raw.github.com/mmastrac/iterm2-zmodem/master/iterm2-recv-zmodem.sh</span><br><span class="line"></span><br><span class="line">chmod 777 /usr/local/bin/iterm2-*</span><br></pre></td></tr></table></figure><p>如果命令需要权限，尝试在命令前面加上<code>sudo</code>。</p><h3 id="添加trigger"><a href="#添加trigger" class="headerlink" title="添加trigger"></a>添加trigger</h3><p>打开一个iTerm终端，点击菜单的Profiles，选择某个profile之后然后继续选择advanced → triggers，添加triggers。</p><table><thead><tr><th>Regular expression</th><th>Action</th><th>Action</th></tr></thead><tbody><tr><td>\*\*B0100</td><td>Run Silent Coprocess</td><td>&#x2F;usr&#x2F;local&#x2F;bin&#x2F;iterm2-send-zmodem.sh</td></tr><tr><td>\*\*B00000000000000</td><td>Run Silent Coprocess</td><td>&#x2F;usr&#x2F;local&#x2F;bin&#x2F;iterm2-recv-zmodem.sh</td></tr></tbody></table><h3 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h3><p>重启iterm2，连接远程Linux，输入rz命令尝试一下。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">ssh username@remote.mechine.com</span><br><span class="line">rz</span><br></pre></td></tr></table></figure><h3 id="参考文章"><a href="#参考文章" class="headerlink" title="参考文章"></a>参考文章</h3><p><a href="http://xfhnever.com/2015/09/04/mac-rzsz/">Mac(二)- Mac下使用rz、sz</a><br><a href="http://codelife.me/blog/2013/03/02/zmodem-integration-for-iterm2/">在iTerm2中使用Zmodem传输文件</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Mac OS下使用scp命令上传下载文件</title>
+      <link href="/2017/12/26/How-to-use-command-scp/"/>
+      <url>/2017/12/26/How-to-use-command-scp/</url>
+      
+        <content type="html"><![CDATA[<p>Mac OS的shell自带命令scp，可以通过scp来上传和下载文件。</p><span id="more"></span><h3 id="上传"><a href="#上传" class="headerlink" title="上传"></a>上传</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp -r local_folder remote_username@remote_ip:remote_folder</span><br></pre></td></tr></table></figure><p>其中，<code>local_folder</code>是源地址，<code>remote_username@remote_ip:remote_folder</code>是目标地址。命令会将源地址的内容上传到目标地址。</p><h3 id="下载"><a href="#下载" class="headerlink" title="下载"></a>下载</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">scp -r remote_username@remote_ip:remote_folder local_folder </span><br></pre></td></tr></table></figure><p>下载和上床对应，将2个参数互换顺序就可以。</p><h3 id="命令参数"><a href="#命令参数" class="headerlink" title="命令参数"></a>命令参数</h3><p>有一些好用的scp命令参数。</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">1.-v 显示进度</span><br><span class="line">2.-r 递归处理</span><br><span class="line">3.-C 压缩选项</span><br><span class="line">4.-P 选择端口</span><br></pre></td></tr></table></figure><blockquote><p><code>-p</code>已经被rcp使用。</p></blockquote><p>更多参数可以通过命令<code>man scp</code>来查看。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工具 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Shell </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
