@@ -11,7 +11,7 @@
 <meta property="article:author" content="LatteFox">
 <meta property="article:tag" content="SSH,Git">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/ssh-keygen.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://lattefox.github.io/2023/02/23/How-to-create-SSH-key-for-Git/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
+<meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/ssh-keygen.png"><link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/lattefox/cloud@master/images/fox.png"><link rel="canonical" href="https://lattefox.github.io/2023/02/23/How-to-create-SSH-key-for-Git/index.html"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//www.google-analytics.com" crossorigin=""/><link rel="preconnect" href="//hm.baidu.com"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>var _hmt = _hmt || [];
 (function() {
   var hm = document.createElement("script");
   hm.src = "https://hm.baidu.com/hm.js?71303b09afc1df3477de1a5ff0f8bf2e";
@@ -174,7 +174,7 @@ gtag('config', 'G-1RVW1XTBBV');
 <p>2.接下来创建密钥。</p>
 <figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&gt; ssh-keygen -t rsa -C &quot;youremailname@gmail.com&quot;</span><br></pre></td></tr></table></figure>
 <blockquote>
-<p>添加命令参数-f othername，可以自定义存放密钥的文件名，如：ssh-keygen -t rsa -C “<a href="mailto:&#121;&#x6f;&#x75;&#114;&#101;&#x6d;&#x61;&#105;&#x6c;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;">&#121;&#x6f;&#x75;&#114;&#101;&#x6d;&#x61;&#105;&#x6c;&#x40;&#x67;&#x6d;&#97;&#x69;&#x6c;&#x2e;&#99;&#x6f;&#109;</a>“ -f 。</p>
+<p>添加命令参数-f othername，可以自定义存放密钥的文件名，如：ssh-keygen -t rsa -C “<a href="mailto:&#x79;&#x6f;&#117;&#x72;&#x65;&#109;&#97;&#105;&#x6c;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;">&#x79;&#x6f;&#117;&#x72;&#x65;&#109;&#97;&#105;&#x6c;&#64;&#x67;&#x6d;&#x61;&#105;&#x6c;&#x2e;&#99;&#x6f;&#x6d;</a>“ -f 。</p>
 </blockquote>
 <blockquote>
 <p>可以通过-h查看更多命令参数的使用，如：ssh-keygen -h。</p>
